@@ -1,0 +1,41 @@
+$color-nav: linear-gradient(to left,rgb(154, 143, 224), rgb(102, 66, 123));
+$color-fondo: rgb(29, 25, 44);
+$color-principal: #66427b;
+$color-registro: #f084ea;
+
+.bg-navbar {
+    background: $color-nav;
+}
+
+.bg-principal{
+    background: $color-principal;
+}
+
+.bg-fondo {
+    background-color: $color-fondo;
+}
+
+.bg-registro {
+    background-color: $color-registro;
+}
+
+.bg-shop {
+    background-image: url(/assets/yerbasplaya.png);
+    background-size:cover;
+}
+
+.bg-galeria {
+    background-image: url(/assets/ciudad.png);
+}
+
+.text-shadow {
+    text-shadow: black 1px 1px 7px;
+}
+
+.color-btn-reg {
+    border-top: #fff646;
+    border-top-style: solid;
+    border-bottom: #877627;
+    border-bottom-style: solid;
+    background-color: #d6a92d;
+}

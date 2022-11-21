@@ -1,0 +1,17 @@
+@mixin estilo-boton {
+    color: white;
+    text-decoration: none;
+    background-color: #65427a;
+    border-top: #9a8fe0;
+    border-top-style: solid;
+    border-bottom: #483156;
+    border-bottom-style: solid; 
+}
+
+@mixin estilo-boton-hover {
+    background-color: #59a211;
+    border-top: #a2e55f;
+    border-top-style: solid;
+    border-bottom: #3b5a1c;
+    border-bottom-style: solid; 
+}

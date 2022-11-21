@@ -1,0 +1,183 @@
+.bg-navbar {
+  background: linear-gradient(to left, #9a8fe0, #66427b); }
+
+.bg-principal {
+  background: #66427b; }
+
+.bg-fondo {
+  background-color: #1d192c; }
+
+.bg-registro {
+  background-color: #f084ea; }
+
+.bg-shop {
+  background-image: url(/assets/yerbasplaya.png);
+  background-size: cover; }
+
+.bg-galeria {
+  background-image: url(/assets/ciudad.png); }
+
+.text-shadow {
+  text-shadow: black 1px 1px 7px; }
+
+.color-btn-reg, body #botonReg {
+  border-top: #fff646;
+  border-top-style: solid;
+  border-bottom: #877627;
+  border-bottom-style: solid;
+  background-color: #d6a92d; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DotGothic16"; }
+
+.body-mg-top {
+  margin-top: 70px; }
+
+body {
+  min-height: 100vh; }
+  body header nav div .navbar-brand:hover {
+    transform: scale(1.2);
+    transition: 50ms; }
+  body #index article {
+    background-color: #1d192c; }
+    body #index article .bienvenida {
+      background-image: url(/assets/foto1.jpg);
+      background-position: center;
+      background-size: cover; }
+      body #index article .bienvenida .container .row div {
+        text-shadow: black 2px 2px 5px; }
+      body #index article .bienvenida .container .row .boton {
+        display: inline-block;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        background-color: #65427a;
+        border-top: #9a8fe0;
+        border-top-style: solid;
+        border-bottom: #483156;
+        border-bottom-style: solid; }
+        body #index article .bienvenida .container .row .boton:hover {
+          transition: 300ms;
+          background-color: #59a211;
+          border-top: #a2e55f;
+          border-top-style: solid;
+          border-bottom: #3b5a1c;
+          border-bottom-style: solid; }
+    body #index article .muestra .articulo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 8px;
+      font-weight: 900;
+      box-shadow: 1px 1px 10px black;
+      transition: 300ms;
+      color: white;
+      text-decoration: none;
+      background-color: #65427a;
+      border-top: #9a8fe0;
+      border-top-style: solid;
+      border-bottom: #483156;
+      border-bottom-style: solid; }
+      body #index article .muestra .articulo:hover {
+        transform: scale(1.1);
+        background-color: #59a211;
+        border-top: #a2e55f;
+        border-top-style: solid;
+        border-bottom: #3b5a1c;
+        border-bottom-style: solid; }
+    body #index article .novedades {
+      background-image: url(/assets/piedra.jpg); }
+      body #index article .novedades div .bg-principal {
+        border-top: #9a8fe0;
+        border-top-style: solid;
+        transition: 80ms; }
+        body #index article .novedades div .bg-principal:hover {
+          box-shadow: #a2e55f 0px 0px 30px 10px; }
+  body #galeria {
+    display: grid;
+    grid-template-areas: 'foto3 foto3 foto1' 'foto2 foto2 foto1' 'foto5 foto5 foto4';
+    grid-template-columns: repeat(3, auto);
+    align-content: stretch;
+    gap: 10px;
+    padding: 10px;
+    background-color: #1d192c; }
+    body #galeria div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    body #galeria .foto1 {
+      grid-area: foto1; }
+    body #galeria .foto2 {
+      grid-area: foto2; }
+    body #galeria .foto3 {
+      grid-area: foto3; }
+    body #galeria .foto4 {
+      grid-area: foto4; }
+    body #galeria .foto5 {
+      grid-area: foto5; }
+  body .form-registro {
+    border-top: #f9ccff 5px;
+    border-top-style: solid;
+    border-bottom: #69305b 5px;
+    border-bottom-style: solid; }
+  body #botonReg {
+    width: 10rem;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; }
+  body footer nav div .navbar-brand:hover {
+    transform: scale(1.2);
+    transition: 50ms; }
+
+#abejita1 {
+  position: fixed;
+  animation-name: vueloDerechaIzquierda;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 15s;
+  transform: scale(0.5);
+  opacity: 100%; }
+
+#abejita2 {
+  position: fixed;
+  animation-name: vueloIzquierdaDerecha;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-delay: 3;
+  transform: scale(0.3);
+  opacity: 0%; }
+
+@keyframes vueloDerechaIzquierda {
+  0% {
+    opacity: 0%;
+    margin-left: 100%; }
+  25% {
+    margin-top: 4%;
+    opacity: 100%; }
+  50% {
+    margin-top: 5%;
+    opacity: 0%;
+    margin-left: -100vh; }
+  100% {
+    opacity: 0%;
+    margin-left: -100vh; } }
+
+@keyframes vueloIzquierdaDerecha {
+  0% {
+    opacity: 0%;
+    margin-left: -100vh; }
+  50% {
+    margin-top: 5%;
+    opacity: 100%; }
+  75% {
+    margin-top: 4%;
+    opacity: 100%; }
+  100% {
+    opacity: 0%;
+    margin-left: 100vh; } }
