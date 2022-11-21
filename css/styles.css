@@ -44,7 +44,7 @@ body {
   body #index article {
     background-color: #1d192c; }
     body #index article .bienvenida {
-      background-image: url(foto1.jpg);
+      background-image: url(../assets/foto1.jpg);
       background-position: center;
       background-size: cover; }
       body #index article .bienvenida .container .row div {
@@ -89,7 +89,7 @@ body {
         border-bottom: #3b5a1c;
         border-bottom-style: solid; }
     body #index article .novedades {
-      background-image: url(piedra.jpg); }
+      background-image: url(../assets/piedra.jpg); }
       body #index article .novedades div .bg-principal {
         border-top: #9a8fe0;
         border-top-style: solid;
