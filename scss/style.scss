@@ -33,7 +33,7 @@ body {
         article {
             background-color: $color-fondo;
             .bienvenida {
-                background-image: url(../assets/foto1.jpg);
+                background-image: url(assets/foto1.jpg);
                 background-position: center;
                 background-size: cover;
                 .container {
@@ -70,7 +70,7 @@ body {
                     }
             }
             .novedades {
-                background-image: url(../assets/piedra.jpg);
+                background-image: url(assets/piedra.jpg);
                 div {
                     .bg-principal {
                         border-top: #9a8fe0;
