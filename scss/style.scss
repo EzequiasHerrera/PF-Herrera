@@ -13,6 +13,10 @@
     margin-top: 70px;
 }
 
+.min-100 {
+    min-height: 100vh;
+}
+
 body {
     min-height: 100vh;
 
@@ -54,10 +58,8 @@ body {
                     }
             }
             .muestra {
+                div{
                     .articulo {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
                         padding: 8px;
                         font-weight: 900;
                         box-shadow: 1px 1px 10px nth($colores, 2);
@@ -68,6 +70,7 @@ body {
                             @include estilo-boton-hover;
                             }
                     }
+                }
             }
             .novedades {
                 background-image: url(../assets/piedra.jpg);
@@ -129,16 +132,6 @@ body {
     border-bottom-style: solid;
 }
 
-#botonReg {
-    @extend .color-btn-reg;
-    width: 10rem;
-    color: nth($colores, 2);
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
 footer {
         nav {
             div {
@@ -152,6 +145,18 @@ footer {
         }
 }
 }
+
+
+#botonReg {
+    @extend .color-btn-reg;
+    width: 10rem;
+    color: nth($colores, 2);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 
 // ANIMACION ABEJAS 
 #abejita1 {
